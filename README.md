@@ -49,6 +49,6 @@ Reload configuration:
 
 Location your project: public_html
 
-If you have problem with mounting disk, you must run cygwin64 as admin. Virtualbox often removes the network interface. Virtualbox run as admin, manually add interface, don't close virtualbox. Run machine. Done.
+If you have problem with mounting disk, you must run cygwin64 as admin. Virtualbox often removes the network interface. Virtualbox run as admin, manually add interface, don't close virtualbox. Run machine(vagrant up). Done.
 
 You can try run to linux host. But must change 'smb' on 'rsync'.

@@ -32,16 +32,22 @@ Before first start:
 - Change password to your host in Vagrantfile, line 8
 
 Start:
+
 	vagrant up
 
 Stop:
+
 	vagrant halt
 
 Connect with ssh:
+
 	vagrant ssh
 
 Reload configuration:
+
 	vagrant up --provision
+
+Location your project: public_html
 
 If you have problem with mounting disk, you must run cygwin64 as admin. Virtualbox often removes the network interface. Virtualbox run as admin, manually add interface, don't close virtualbox. Run machine. Done.
 
